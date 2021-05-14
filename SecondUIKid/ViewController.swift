@@ -119,7 +119,7 @@ class ViewController: UIViewController {
         self.view.backgroundColor = backgroundColor?.withAlphaComponent(CGFloat(sender.value))
     }
     
-
+    
     @IBAction func donePressed(_ sender: UIButton) {
         
         guard textField.text?.isEmpty == false else {return}
@@ -131,7 +131,7 @@ class ViewController: UIViewController {
             
             alert.addAction(okAction)
             present(alert, animated: true, completion:nil )
-           
+            
         } else {
             label.text = textField.text
             textField.text = nil

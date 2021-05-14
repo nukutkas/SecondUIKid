@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5998189264E70A0001447F7 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5998188264E70A0001447F7 /* Screenshot02.png */; };
+		E599818D264E70B3001447F7 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = E599818C264E70B3001447F7 /* Screenshot01.png */; };
 		E5F42D9624EFB9EF00224461 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F42D9524EFB9EF00224461 /* AppDelegate.swift */; };
 		E5F42D9824EFB9EF00224461 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F42D9724EFB9EF00224461 /* SceneDelegate.swift */; };
 		E5F42D9A24EFB9EF00224461 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F42D9924EFB9EF00224461 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E5998188264E70A0001447F7 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		E599818C264E70B3001447F7 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
 		E5F42D9224EFB9EF00224461 /* SecondUIKid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondUIKid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F42D9524EFB9EF00224461 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5F42D9724EFB9EF00224461 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E5998180264E6F7D001447F7 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				E599818C264E70B3001447F7 /* Screenshot01.png */,
+				E5998188264E70A0001447F7 /* Screenshot02.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		E5F42D8924EFB9EF00224461 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 		E5F42D9424EFB9EF00224461 /* SecondUIKid */ = {
 			isa = PBXGroup;
 			children = (
+				E5998180264E6F7D001447F7 /* Screenshots */,
 				E5F42D9524EFB9EF00224461 /* AppDelegate.swift */,
 				E5F42D9724EFB9EF00224461 /* SceneDelegate.swift */,
 				E5F42D9924EFB9EF00224461 /* ViewController.swift */,
@@ -94,7 +108,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Nikita Kochetov";
 				TargetAttributes = {
 					E5F42D9124EFB9EF00224461 = {
@@ -127,6 +141,8 @@
 			files = (
 				E5F42DA224EFB9F000224461 /* LaunchScreen.storyboard in Resources */,
 				E5F42D9F24EFB9F000224461 /* Assets.xcassets in Resources */,
+				E5998189264E70A0001447F7 /* Screenshot02.png in Resources */,
+				E599818D264E70B3001447F7 /* Screenshot01.png in Resources */,
 				E5F42D9D24EFB9EF00224461 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,6 +208,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +269,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
