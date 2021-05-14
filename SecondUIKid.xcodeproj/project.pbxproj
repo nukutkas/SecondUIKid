@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E5998189264E70A0001447F7 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5998188264E70A0001447F7 /* Screenshot02.png */; };
 		E599818D264E70B3001447F7 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = E599818C264E70B3001447F7 /* Screenshot01.png */; };
+		E5998190264E7242001447F7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E599818F264E7242001447F7 /* README.md */; };
 		E5F42D9624EFB9EF00224461 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F42D9524EFB9EF00224461 /* AppDelegate.swift */; };
 		E5F42D9824EFB9EF00224461 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F42D9724EFB9EF00224461 /* SceneDelegate.swift */; };
 		E5F42D9A24EFB9EF00224461 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F42D9924EFB9EF00224461 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		E5998188264E70A0001447F7 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
 		E599818C264E70B3001447F7 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		E599818F264E7242001447F7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		E5F42D9224EFB9EF00224461 /* SecondUIKid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondUIKid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F42D9524EFB9EF00224461 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5F42D9724EFB9EF00224461 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				E5F42D9E24EFB9F000224461 /* Assets.xcassets */,
 				E5F42DA024EFB9F000224461 /* LaunchScreen.storyboard */,
 				E5F42DA324EFB9F000224461 /* Info.plist */,
+				E599818F264E7242001447F7 /* README.md */,
 			);
 			path = SecondUIKid;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5998190264E7242001447F7 /* README.md in Resources */,
 				E5F42DA224EFB9F000224461 /* LaunchScreen.storyboard in Resources */,
 				E5F42D9F24EFB9F000224461 /* Assets.xcassets in Resources */,
 				E5998189264E70A0001447F7 /* Screenshot02.png in Resources */,
