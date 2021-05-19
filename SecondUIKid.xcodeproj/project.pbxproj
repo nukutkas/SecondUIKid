@@ -52,10 +52,48 @@
 			path = Screenshots;
 			sourceTree = "<group>";
 		};
+		E59A523726559C3D001B3C63 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				E5F42D9524EFB9EF00224461 /* AppDelegate.swift */,
+				E5F42D9724EFB9EF00224461 /* SceneDelegate.swift */,
+				E5F42DA324EFB9F000224461 /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		E59A523926559C48001B3C63 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E5F42D9924EFB9EF00224461 /* ViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		E59A523B26559C57001B3C63 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E5F42D9B24EFB9EF00224461 /* Main.storyboard */,
+				E5F42DA024EFB9F000224461 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E59A523D26559C61001B3C63 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E5F42D9E24EFB9F000224461 /* Assets.xcassets */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		E5F42D8924EFB9EF00224461 = {
 			isa = PBXGroup;
 			children = (
 				E5F42D9424EFB9EF00224461 /* SecondUIKid */,
+				E59A523726559C3D001B3C63 /* Supporting files */,
+				E5998180264E6F7D001447F7 /* Screenshots */,
+				E59A523D26559C61001B3C63 /* Source */,
 				E5F42D9324EFB9EF00224461 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,14 +109,8 @@
 		E5F42D9424EFB9EF00224461 /* SecondUIKid */ = {
 			isa = PBXGroup;
 			children = (
-				E5998180264E6F7D001447F7 /* Screenshots */,
-				E5F42D9524EFB9EF00224461 /* AppDelegate.swift */,
-				E5F42D9724EFB9EF00224461 /* SceneDelegate.swift */,
-				E5F42D9924EFB9EF00224461 /* ViewController.swift */,
-				E5F42D9B24EFB9EF00224461 /* Main.storyboard */,
-				E5F42D9E24EFB9F000224461 /* Assets.xcassets */,
-				E5F42DA024EFB9F000224461 /* LaunchScreen.storyboard */,
-				E5F42DA324EFB9F000224461 /* Info.plist */,
+				E59A523926559C48001B3C63 /* View Controller */,
+				E59A523B26559C57001B3C63 /* Storyboards */,
 				E599818F264E7242001447F7 /* README.md */,
 			);
 			path = SecondUIKid;
@@ -308,7 +340,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZZW6YBBKN;
-				INFOPLIST_FILE = SecondUIKid/Info.plist;
+				INFOPLIST_FILE = "SecondUIKid/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -327,7 +359,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZZW6YBBKN;
-				INFOPLIST_FILE = SecondUIKid/Info.plist;
+				INFOPLIST_FILE = "SecondUIKid/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
