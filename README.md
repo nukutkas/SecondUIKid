@@ -8,5 +8,5 @@ Use Xcode 12 to install
 
 # Screenshots
 
-![Screenshot 1](https://github.com/nukutkas/SecondUIKid/blob/master/SecondUIKid/Screenshots/Screenshot01.png)
-![Screenshot 2](https://github.com/nukutkas/SecondUIKid/blob/master/SecondUIKid/Screenshots/Screenshot02.png)
+![Screenshot 1](https://github.com/nukutkas/SecondUIKid/blob/master/Screenshots/Screenshot01.png)
+![Screenshot 2](https://github.com/nukutkas/SecondUIKid/blob/master/Screenshots/Screenshot02.png)
