@@ -1,4 +1,4 @@
-# SecondUIKid
+# UIKid
 
 UIKit app for practice UISegmentedControl, UILabel, UISlider, UITextField, UIButton and UIDatePicker.
 
