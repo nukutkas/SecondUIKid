@@ -1,6 +1,6 @@
 # SecondUIKid
 
-UIKit app for testing UISegmentedControl, UILabel, UISlider, UITextField, UIButton and UIDatePicker.
+UIKit app for practice UISegmentedControl, UILabel, UISlider, UITextField, UIButton and UIDatePicker.
 
 # Installation
 
